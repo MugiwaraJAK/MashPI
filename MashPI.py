@@ -83,7 +83,7 @@ def boil():
 			'''switch on'''
 			Element1.setState(False)
 			pass
-		else curr_temp>boil_temp:
+		elif curr_temp>boil_temp:
 			start_boil=raw_input('Alerady boiling? start boil timer? [y/n]')
 			'''switch on'''
 			Element1.setState(False)
@@ -146,14 +146,14 @@ def water_heating():
 			'''switch on'''
 			Element1.setState(False)
 			pass
-		else curr_temp=strike_temp:
+		elif curr_temp==strike_temp:
 			'''switch off'''
 			Element1.setState(True)
 			ask_if_add_grain=raw_input('Add grains? [y/n]: ')
 			if ask_if_add_grain=='n' or ask_if_add_grain=='N':
 				water_heating()
 			elif ask_if_add_grain=='y' or ask_if_add_grain=='Y':
-				print 'It\'s time to add the grains')
+				print 'It\'s time to add the grains'
 				ask_if_start_mash=raw_input('Start Mash? [y/n]: ')
 				if ask_if_start_mash=='n' or ask_if_start_mash=='N':
 					water_heating()
