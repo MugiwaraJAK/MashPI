@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # mashpi 2014-08-13
-# dovrebbe funzionare tutto!!!!
+# it should works
 
 import RPi.GPIO as GPIO
 import time
