@@ -1,7 +1,7 @@
 MashPI
 ======
 
-Beer Brewing with a raspberry PI
+Beer Brewing with Raspberry PI
 
 Software:
 - The software has been tested only on Raspbian
